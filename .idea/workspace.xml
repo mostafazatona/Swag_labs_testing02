@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd44bdcf-bbb2-43de-928d-9bb47c7d9c86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utalities/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/Add_prouduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/Base_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/Burger_menu_TC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/Return_to_product_TC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/TC_StoE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/log_out_TC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/login_testcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/remove_product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Checkout_Complete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Overview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Products_details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/information.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_ng/first_NG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Firist_Auto\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mostafazatona&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mostafazatona/Swag_labs_testing001.git&quot;,
+    &quot;accountId&quot;: &quot;8d4ceee2-f018-42e4-81a8-bb8d63e2455c&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2s780WlWXLqqE7WHlC2YlbktN7e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.testcase in Firist_Auto.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.Add_prouduct.Add_prouduct.executor": "Run",
+    "TestNG.Burger_menu.Burger_menu.executor": "Run",
+    "TestNG.Burger_menu_TC.Burger_menu.executor": "Run",
+    "TestNG.Check_out_TC.check_out_info.executor": "Run",
+    "TestNG.Check_out_TC.executor": "Run",
+    "TestNG.Return_to_product_TC.Return_to_product_TC.executor": "Run",
+    "TestNG.TC_StoE.check_out_info.executor": "Run",
+    "TestNG.TC_StoE.executor": "Run",
+    "TestNG.first_NG.executor": "Run",
+    "TestNG.first_NG.testSuccessLogout.executor": "Run",
+    "TestNG.first_NG.testSuccessfulLogin.executor": "Run",
+    "TestNG.log_out_TC.testName.executor": "Run",
+    "TestNG.log_out_TC.testlog_out.executor": "Run",
+    "TestNG.login_testcase.executor": "Run",
+    "TestNG.login_testcase.testSuccessfulLogin.executor": "Run",
+    "TestNG.login_testcase.test_login_with_Stander.executor": "Run",
+    "TestNG.login_testcase.test_login_with_standard.executor": "Run",
+    "TestNG.page.testcase.executor": "Run",
+    "TestNG.remove_product.remove_product.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/TATA/IdeaProjects/Firist_Auto",
+    "onboarding.tips.debug.path": "C:/Users/TATA/IdeaProjects/Firist_Auto/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TATA\IdeaProjects\Firist_Auto\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC_StoE.check_out_info">
+    <configuration name="Return_to_product_TC.Return_to_product_TC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Firist_Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page.testcase" />
+      <option name="MAIN_CLASS_NAME" value="page.testcase.Return_to_product_TC" />
+      <option name="METHOD_NAME" value="Return_to_product_TC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_StoE" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Firist_Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page.testcase" />
+      <option name="MAIN_CLASS_NAME" value="page.testcase.TC_StoE" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_StoE.check_out_info" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Firist_Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page.testcase" />
+      <option name="MAIN_CLASS_NAME" value="page.testcase.TC_StoE" />
+      <option name="METHOD_NAME" value="check_out_info" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="log_out_TC.testlog_out" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Firist_Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page.testcase" />
+      <option name="MAIN_CLASS_NAME" value="page.testcase.log_out_TC" />
+      <option name="METHOD_NAME" value="testlog_out" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="remove_product.remove_product" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Firist_Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page.testcase" />
+      <option name="MAIN_CLASS_NAME" value="page.testcase.remove_product" />
+      <option name="METHOD_NAME" value="remove_product" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TC_StoE" />
+      <item itemvalue="TestNG.TC_StoE.check_out_info" />
+      <item itemvalue="TestNG.log_out_TC.testlog_out" />
+      <item itemvalue="TestNG.remove_product.remove_product" />
+      <item itemvalue="TestNG.Return_to_product_TC.Return_to_product_TC" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC_StoE.check_out_info" />
+        <item itemvalue="TestNG.TC_StoE" />
+        <item itemvalue="TestNG.Return_to_product_TC.Return_to_product_TC" />
+        <item itemvalue="TestNG.remove_product.remove_product" />
+        <item itemvalue="TestNG.log_out_TC.testlog_out" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd44bdcf-bbb2-43de-928d-9bb47c7d9c86" name="Changes" comment="" />
+      <created>1737795033225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737795033225</updated>
+    </task>
+    <servers />
+  </component>
+</project>
