@@ -10,23 +10,90 @@ public class Products_details {
         this.driver = driver;
     }
 
-    By SLB_details = By.id("back-to-products");
-    By Addtocart_SLB = By.id("add-to-cart");
-    By removeproduct = By.id("remove");
+    // Locators
+    By backToProductsButton = By.id("back-to-products");
+    By addToCartButton = By.id("add-to-cart");
+    By removeButton = By.id("remove");
 
-    public void Click_add_prouduct() {
-        driver.findElement(Addtocart_SLB).click();
+    // Actions
+    public void clickAddToCart() {
+        driver.findElement(addToCartButton).click();
     }
 
-    public String Clicking_remove_product() {
-        driver.findElement(removeproduct).click();
+    public String clickRemoveProduct() {
+        driver.findElement(removeButton).click();
         return null;
     }
 
-    public void Clicking_SLB_details() {
-        driver.findElement(SLB_details).click(); // تعديل للنقر على زر الرجوع
+    public void clickBackToProducts() {
+        driver.findElement(backToProductsButton).click();
     }
+
+    /* By burgerMenu = By.id("react-burger-menu-btn");
+    By allItems = By.id("inventory_sidebar_link");
+    By aboutLink = By.id("about_sidebar_link");
+    By logoutButton = By.id("logout_sidebar_link");
+    By resetAppState = By.id("reset_sidebar_link");
+    By cartIcon = By.className("shopping_cart_link");
+
+    public void clickAbout() {
+        driver.findElement(aboutLink).click();
+    }
+
+    public void clickAllItems(By allItemsLocator) {
+        driver.findElement(allItems).click();
+    }
+
+    public void clickBurgerMenu() {
+        driver.findElement(burgerMenu).click();
+    }
+
+    public void clickCartIcon(By cartLocator) {
+        driver.findElement(cartIcon).click();
+    }
+
+    public void clickLogout() {
+        driver.findElement(logoutButton).click();
+    }
+
+    public void clickResetAppState(By resetLocator) {
+        driver.findElement(resetAppState).click();
+    }
+    */
 }
+
+    /* By burgerMenu = By.id("react-burger-menu-btn");          // كان burger_menu
+    By allItems = By.id("inventory_sidebar_link");           // كان All_items
+    By aboutLink = By.id("about_sidebar_link");              // كان About
+    By logoutButton = By.id("logout_sidebar_link");          // كان logout
+    By resetAppState = By.id("reset_sidebar_link");          // كان Reset_App_State
+    By cartIcon = By.className("shopping_cart_link");        // كان chart_icon
+
+    public void clickAbout() {                               // كان Clicking_About
+        driver.findElement(aboutLink).click();
+    }
+
+    public void clickAllItems(By allItemsLocator) {          // كان Clicking_All_items مع تعديل الاسم
+        driver.findElement(allItems).click();
+    }
+
+    public void clickBurgerMenu() {                          // كان Clicking_burger_menu
+        driver.findElement(burgerMenu).click();
+    }
+
+    public void clickCartIcon(By cartLocator) {              // كان Clicking_chart_icon مع تعديل الاسم
+        driver.findElement(cartIcon).click();
+    }
+
+    public void clickLogout() {                              // كان Clicking_logout_button
+        driver.findElement(logoutButton).click();
+    }
+
+    public void clickResetAppState(By resetLocator) {        // كان Clicking_Reset_App_State مع تعديل الاسم
+        driver.findElement(resetAppState).click();
+    }
+    */
+
 /* By burger_menu = By.id("react-burger-menu-btn");
     By All_items =By.id("inventory_sidebar_link");
     By About = By.id("about_sidebar_link");
