@@ -2,12 +2,14 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class Products {
 
     WebDriver driver;
 
     // Locators
+
     By Product_Sort = By.className("product_sort_container");
     By chart_icon = By.className("shopping_cart_link");
     By burger_menu = By.id("react-burger-menu-btn");
@@ -28,7 +30,7 @@ public class Products {
     By SL_Bp_Image = By.xpath("//*[@id=\"item_4_img_link\"]/img");
     By SL_Bp_Addtocartbutton = By.id("add-to-cart-sauce-labs-backpack");
     By SL_Bp_removeproduct1 = By.id("remove-sauce-labs-backpack");
-
+    By Price1 = By.xpath("//*[@id=\"inventory_container\"]/div/div[1]/div[2]/div[2]/div");
     // Second Product
     By SL_Bl_Name = By.xpath("//*[@id=\"item_0_title_link\"]/div");
     By SL_Bl_Image = By.xpath("//*[@id=\"item_0_img_link\"]/img");
@@ -67,6 +69,10 @@ public class Products {
     // Constructor
     public Products(WebDriver driver) {
         this.driver = driver;
+    }
+    public String getProductPrice() {
+        WebElement priceElement = driver.findElement(Price1);
+        return priceElement.getText().trim();
     }
 
     // Generic Actions

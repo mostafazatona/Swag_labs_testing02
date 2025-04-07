@@ -11,7 +11,7 @@ public class Overview {
         By cansel_button = By.id("cancel");
 
 
-    public void Clicking_cansel_button (By cansel) {
+    public void Clicking_cansel_button () {
         driver.findElement(cansel_button).click();
 
     }

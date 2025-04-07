@@ -88,6 +88,7 @@ public class TC_StoE extends Base_test {
         // النقر على زر Finish
         overview.Clicking_finish_button();
 
+
         // التحقق النهائي من اكتمال الشراء
         wait.until(ExpectedConditions.urlToBe("https://www.saucedemo.com/checkout-complete.html"));
         String curl = base_driver.getCurrentUrl();
