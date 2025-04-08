@@ -20,7 +20,7 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/Burger_menu_TC.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/Canslation_TC.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/E_pricecart_TC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/Filter_TC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/FilterTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/Return_to_product_TC.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/TC_StoE.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/page/testcase/login_testcase.java" afterDir="false" />
@@ -92,6 +92,9 @@
     "TestNG.Check_out_TC.executor": "Run",
     "TestNG.E_price_TC.E_price_TC.executor": "Run",
     "TestNG.E_pricecart_TC.E_price_TC.executor": "Run",
+    "TestNG.FilterTest.testFilters.executor": "Run",
+    "TestNG.Invalid_login.test_Invalid_login_with_standard.executor": "Run",
+    "TestNG.Null_Info.test_Null_Info_with_standard.executor": "Run",
     "TestNG.Return_to_product_TC.Return_to_product_TC.executor": "Run",
     "TestNG.TC_StoE.check_out_info.executor": "Run",
     "TestNG.TC_StoE.executor": "Run",
@@ -120,6 +123,42 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TC_StoE.check_out_info">
+    <configuration name="Invalid_login.test_Invalid_login_with_standard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Firist_Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page.testcase" />
+      <option name="MAIN_CLASS_NAME" value="page.testcase.Invalid_login" />
+      <option name="METHOD_NAME" value="test_Invalid_login_with_standard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Null_Info.test_Null_Info_with_standard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Firist_Auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page.testcase" />
+      <option name="MAIN_CLASS_NAME" value="page.testcase.Null_Info" />
+      <option name="METHOD_NAME" value="test_Null_Info_with_standard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Return_to_product_TC.Return_to_product_TC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Firist_Auto" />
       <extension name="coverage">
@@ -156,42 +195,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="login_testcase.test_login_with_all_users" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Firist_Auto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="page.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="page.testcase" />
-      <option name="MAIN_CLASS_NAME" value="page.testcase.login_testcase" />
-      <option name="METHOD_NAME" value="test_login_with_all_users" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="login_testcase.test_login_with_standard" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Firist_Auto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="page.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="page.testcase" />
-      <option name="MAIN_CLASS_NAME" value="page.testcase.login_testcase" />
-      <option name="METHOD_NAME" value="test_login_with_standard" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="remove_product.remove_product" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Firist_Auto" />
       <extension name="coverage">
@@ -211,8 +214,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.login_testcase.test_login_with_all_users" />
-      <item itemvalue="TestNG.login_testcase.test_login_with_standard" />
+      <item itemvalue="TestNG.Invalid_login.test_Invalid_login_with_standard" />
+      <item itemvalue="TestNG.Null_Info.test_Null_Info_with_standard" />
       <item itemvalue="TestNG.remove_product.remove_product" />
       <item itemvalue="TestNG.TC_StoE.check_out_info" />
       <item itemvalue="TestNG.Return_to_product_TC.Return_to_product_TC" />
@@ -220,10 +223,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TC_StoE.check_out_info" />
+        <item itemvalue="TestNG.Invalid_login.test_Invalid_login_with_standard" />
+        <item itemvalue="TestNG.Null_Info.test_Null_Info_with_standard" />
         <item itemvalue="TestNG.Return_to_product_TC.Return_to_product_TC" />
         <item itemvalue="TestNG.remove_product.remove_product" />
-        <item itemvalue="TestNG.login_testcase.test_login_with_all_users" />
-        <item itemvalue="TestNG.login_testcase.test_login_with_standard" />
       </list>
     </recent_temporary>
   </component>

@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class Products {
 
     WebDriver driver;
@@ -242,5 +245,18 @@ public class Products {
 
     public void clickLogoutButton() {
         clickElement(By.id("logout_sidebar_link"));
+    }
+    public List<String> getAllProductNames() {
+        List<WebElement> productElements = driver.findElements(By.xpath("//div[@class='inventory_item_name']"));
+        return productElements.stream()
+                .map(WebElement::getText)
+                .collect(Collectors.toList());
+    }
+    public List<Double> getAllProductPrices() {
+        List<WebElement> priceElements = driver.findElements(By.xpath("//div[@class='inventory_item_price']"));
+        return priceElements.stream()
+                .map(element -> element.getText().replace("$", ""))
+                .map(Double::parseDouble)
+                .collect(Collectors.toList());
     }
 }

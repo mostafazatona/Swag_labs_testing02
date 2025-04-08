@@ -26,6 +26,11 @@ public class login {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.presenceOfElementLocated(username)).sendKeys(user_name);
     }
+    public void setinvalidusername(String user_name) {
+        // استخدام WebDriverWait للتأكد من وجود العنصر قبل التفاعل معه
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfElementLocated(username)).sendKeys(user_name);
+    }
 
     public void setpassword(String password) {
         // استخدام WebDriverWait للتأكد من وجود العنصر قبل التفاعل معه
