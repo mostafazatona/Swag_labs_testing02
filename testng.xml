@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All_TESTS">
+  <test name="full test" >
+      <classes>
+          <class name="page.testcase.Add_prouduct"/>
+          <class name="page.testcase.Burger_menu_TC"/>
+          <class name="page.testcase.Canslation_TC"/>
+          <class name="page.testcase.E_pricecart_TC"/>
+          <class name="page.testcase.FilterTest"/>
+          <class name="page.testcase.Invalid_login"/>
+          <class name="page.testcase.Null_Info"/>
+          <class name="page.testcase.Return_to_product_TC"/>
+          <class name="page.testcase.TC_StoE"/>
+          <class name="page.testcase.login_testcase"/>
+          <class name="page.testcase.remove_product"/>
+      </classes>
+  </test>
+
+</suite>

@@ -11,7 +11,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import pages.Cart;
 import pages.Products;
-import pages.information;
 import pages.login;
 
 import java.time.Duration;
@@ -22,7 +21,7 @@ public class Add_prouduct extends Base_test {
     Cart cart;
 
     @Test
-    public void Add_prouduct() {
+    public void addProuduct() {
         testlogin = new login(base_driver);
         Wait<WebDriver> wait = new WebDriverWait(base_driver, Duration.ofSeconds(5));
         SL_Bp_Name = new Products(base_driver);
@@ -46,10 +45,5 @@ public class Add_prouduct extends Base_test {
         Assert.assertEquals(cartItemNameText, "Sauce Labs Backpack", "المنتج المضاف إلى السلة غير متطابق مع المتوقع");
     }
 
-    @AfterClass
-    public void tearDown() {
-        if (base_driver != null) {
-            base_driver.quit();
-        }
-    }
+
 }
