@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Run TestNG Suite') {
+            steps {
+                sh 'mvn test -Dtestng.xml=All_TESTS.xml' // مثال باستخدام Maven
+            }
+        }
+    }
+}
