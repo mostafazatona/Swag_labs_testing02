@@ -1,0 +1,1 @@
+This repository contains automated test scripts for a school tools website using Selenium WebDriver. The tests are designed to ensure the website's functionality, usability, and performance meet the expected standards.
